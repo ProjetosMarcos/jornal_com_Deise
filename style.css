@@ -16,7 +16,7 @@
 
 
 .Section-1-bg{
-    background-image: url(laine.jpeg);
+    background-image: url(./laine.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -154,7 +154,7 @@ aside{
   
 }
 
-.Numeros{
+.numeros{
     display: flex;
     margin-top: 35px;
     color: rgb(0, 0, 0);
@@ -201,7 +201,7 @@ aside{
         width: 150px;
     }
 
-    .Numeros{
+    .numeros{
         margin-right: 25%;
         margin-top: 50%;
     }
@@ -223,7 +223,7 @@ aside{
 }
 
 .image img{
-    width: 400px;
+    width: 700px;
     height: auto;
     box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
 }
@@ -518,6 +518,11 @@ aside{
 .C-rodapé form input:last-child:hover{
     transform: scale(1.1);
     transition-duration: 0.9s;
+}
+
+.numeros a{
+    text-decoration: none;
+    
 }
 
 @media only screen and (max-width: 414px){
